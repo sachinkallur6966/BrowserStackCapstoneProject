@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyFirstTestSuite]">
+  <listeners>
+    <listener class-name="Utility.AppUtility1"/>
+  </listeners>
+  <test thread-count="5" name="BstackTestCases(failed)">
+    <classes>
+      <class name="com.bstack.testCases.BstackLoginpageTestCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC_001_login"/>
+        </methods>
+      </class> <!-- com.bstack.testCases.BstackLoginpageTestCases -->
+    </classes>
+  </test> <!-- BstackTestCases(failed) -->
+</suite> <!-- Failed suite [MyFirstTestSuite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyFirstTestSuite">
+  <listeners>
+        <listener class-name="Utility.AppUtility1"/>
+    </listeners>
+	<test name="BstackTestCases">
+		<classes>
+			<class name="com.bstack.testCases.BstackProductPageTestCases" />
+			<class name="com.bstack.testCases.BstackCartPageTestCases" />
+			<class name="com.bstack.testCases.BstackLoginpageTestCases" />
+			<class name="com.bstack.testCases.BstackCheckoutPageTestCases" />
+		</classes>
+	</test>
+</suite>
