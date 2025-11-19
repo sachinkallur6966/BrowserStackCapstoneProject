@@ -9,7 +9,7 @@ public class BstackLoginpageTestCases extends BaseTestForBstack {
   public void TC_001_login() throws InterruptedException {
 	  blp.selectUsername();
 	  blp.selectPassword();
-	  //blp.clickOnLogin();
+	  blp.clickOnLogin();
 	  Thread.sleep(3000);
 	  blp.checkForsuccessfullLogin();
   }
@@ -21,9 +21,7 @@ public class BstackLoginpageTestCases extends BaseTestForBstack {
 	  blp.clickOnLogin();
 	  Thread.sleep(5000);
 	 String message= blp.getErrorMsg();
-	 System.out.println("The Message is:"+message );//Invalid Username
-	  
-	  
+	 System.out.println("The Message is:"+message );//Invalid Username  
   }
   @Test
   public void TC_003LoginWithEmptyPassword() throws InterruptedException
@@ -33,10 +31,6 @@ public class BstackLoginpageTestCases extends BaseTestForBstack {
 	  blp.clickOnLogin();
 	  Thread.sleep(5000);
 	  String message=blp.getErrorMsg();
-	  System.out.println("The Message is:"+message );//Invalid Password
-	  
+	  System.out.println("The Message is:"+message );//Invalid Password  
   }
-  
-
-
 }

@@ -26,8 +26,6 @@ public class WebDriverFactory {
 				driver= new ChromeDriver();
 			}
 		return driver;
-		
-		
 	}
 	public static void quitDriver()
 	{
